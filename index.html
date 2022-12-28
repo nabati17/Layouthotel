@@ -6,33 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Penginapan Bersama</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg bg-nav" data-bs-theme="dark">
       <div class="container">
-        <a class="h4" href="#" style="text-decoration: none">Booking</a>
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Service</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
+        <a class="navbar-brand fw-bold fs-4" href="#">Booking</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item ms-4">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item ms-4">
+              <a class="nav-link" href="#">Service</a>
+            </li>
+            <li class="nav-item ms-4">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item ms-4">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -125,7 +139,16 @@
     </div>
 
     <div class="container-fluid mt-5">
-      <h1 style="text-align: center; color: #ff7a00; font-family: sans-serif; font-weight: 700;">About US</h1>
+      <h1
+        style="
+          text-align: center;
+          color: #ff7a00;
+          font-family: sans-serif;
+          font-weight: 700;
+        "
+      >
+        About US
+      </h1>
     </div>
 
     <div class="container ml-5">
@@ -140,88 +163,181 @@
           />
         </div>
         <div class="flex-grow-1 ms-3">
-          This is some content from a media component. You can replace this with
-          any content and adjust it as needed.
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. In hic
+            dolor veniam rerum laboriosam consequuntur tempore maxime inventore,
+            modi consectetur ut possimus eos deleniti! Rem inventore temporibus
+            facere alias. At?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. In hic
+            dolor veniam rerum laboriosam consequuntur tempore maxime inventore,
+            modi consectetur ut possimus eos deleniti! Rem inventore temporibus
+            facere alias. At?
+          </p>
         </div>
       </div>
     </div>
 
     <div class="container-fluid mt-5">
-      <h1 style="text-align: center; color: #ff7a00; font-family: sans-serif; font-weight: 700;">Our Hotels</h1>
+      <h1
+        style="
+          text-align: center;
+          color: #ff7a00;
+          font-family: sans-serif;
+          font-weight: 700;
+        "
+      >
+        Our Hotels
+      </h1>
     </div>
 
-  <div class="container mt-5">
-  <div class="row">
-    <div class="col-md-4">
-      <div class="card">
-        <img src="img/tulip.jpg" class="card-img-top" alt="Card image">
-        <div class="card-body">
-          <h5 class="card-title">Golden Tulip Springhill</h5>
-          <p class="card-text">Golden Tulip Springhill Lampung has an outdoor swimming pool, garden, a terrace and restaurant in Bandar Lampung. With free WiFi, this 4-star hotel offers room service and a 24-hour front desk.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/tulip.jpg" class="card-img-top" alt="Card image" />
+            <div class="card-body">
+              <h5 class="card-title">Golden Tulip Springhill</h5>
+              <p class="card-text">
+                Golden Tulip Springhill Bali has an outdoor swimming pool,
+                garden, a terrace and restaurant in Bali. With free WiFi, this
+                4-star hotel offers room service and a 24-hour front desk.
+              </p>
+              <a href="product.html" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="img/swisbell.jpg"
+              height="230"
+              class="card-img-top"
+              alt="Card image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Swiss-Belhotel Lampung</h5>
+              <p class="card-text">
+                Conveniently located a 10-minute drive from the city centre and
+                Central Plaza as well as Kartini malls, Swiss-Belhotel Lampung
+                offers well appointed rooms and free WiFi access throughout.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="img/pop-hotel-tanjung-karang.jpg"
+              height="230"
+              class="card-img-top"
+              alt="Card image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Pop Hotel</h5>
+              <p class="card-text">
+                Featuring a 24-hour front desk, POP! Hotel Tanjung Karang is
+                located in Bandar Lampung. Free Wi-Fi access is available in all
+                areas. Near the earth sane hospital in Bandar Lampung.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="img/batiqa.jpg"
+              height="230"
+              class="card-img-top"
+              alt="Card image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Batiqa Hotel</h5>
+              <p class="card-text">
+                Situated in Bandar Lampung, 1 km from Tanjungkarang, BATIQA
+                Hotel Lampung features accommodation with a fitness centre, free
+                private parking and a restaurant.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="img/novhotel.jpg"
+              height="230"
+              class="card-img-top"
+              alt="Card image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">NOVOTEL</h5>
+              <p class="card-text">
+                Offering outdoor pool and indoor heated pool, Novotel Lampung is
+                located in the heart of Bandar Lampung. Free Wi-Fi access is
+                available. There is a very beautiful view
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="img/horison.jpg"
+              height="230"
+              class="card-img-top"
+              alt="Card image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Horison</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content. Located in the center of the
+                city of Bandar Lampung. It is close to kartini mall
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="col-md-4">
-      <div class="card">
-        <img src="img/swisbell.jpg" height="230" class="card-img-top" alt="Card image">
-        <div class="card-body">
-          <h5 class="card-title">Swiss-Belhotel Lampung</h5>
-          <p class="card-text">Conveniently located a 10-minute drive from the city centre and Central Plaza as well as Kartini malls, Swiss-Belhotel Lampung offers well appointed rooms and free WiFi access throughout.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
+    <div class="footer d-flex mt-5">
+      <div class="col-md-4 footer-booking ms-5 mt-3">
+        <h2 class="fw-bolder">Booking</h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+        error?
+      </div>
+      <div class="col-md-3 mt-3 text-white">
+        <h4 class="footer-contact">Contact</h4>
+        <p>Street, bali 05 Indonesia</p>
+        <p>08976543356</p>
+        <p>resortbali@mail.com</p>
+        <p></p>
+      </div>
+      <div class="col-md-2 mt-3 text-white footer-company mb-4">
+        <h4 class="footer-contact">Company</h4>
+        <a href=""> > About Us</a>
+        <p></p>
+        <a href="">> Contact Us</a>
+        <p></p>
+        <a href="">> Privasi Police</a>
+        <p></p>
+        <a href=""> > Support</a>
       </div>
     </div>
-    <div class="col-md-4">
-      <div class="card">
-        <img src="img/pop-hotel-tanjung-karang.jpg"  height="230" class="card-img-top" alt="Card image">
-        <div class="card-body">
-          <h5 class="card-title">Pop Hotel</h5>
-          <p class="card-text">Featuring a 24-hour front desk, POP! Hotel Tanjung Karang is located in Bandar Lampung. Free Wi-Fi access is available in all areas. Near the earth sane hospital in Bandar Lampung.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row mt-5">
-    <div class="col-md-4">
-      <div class="card">
-        <img src="img/batiqa.jpg" height="230" class="card-img-top" alt="Card image">
-        <div class="card-body">
-          <h5 class="card-title">Batiqa Hotel</h5>
-          <p class="card-text">Situated in Bandar Lampung, 1 km from Tanjungkarang, BATIQA Hotel Lampung features accommodation with a fitness centre, free private parking and a restaurant.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card">
-        <img src="img/novhotel.jpg" height="230" class="card-img-top" alt="Card image">
-        <div class="card-body">
-          <h5 class="card-title">NOVOTEL</h5>
-          <p class="card-text">Offering outdoor pool and indoor heated pool, Novotel Lampung is located in the heart of Bandar Lampung. Free Wi-Fi access is available. There is a very beautiful view</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-     </div>
-     <div class="col-md-4">
-      <div class="card">
-        <img src="img/horison.jpg" height="230" class="card-img-top" alt="Card image">
-        <div class="card-body">
-          <h5 class="card-title">Horison</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Located in the center of the city of Bandar Lampung. It is close to kartini mall</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-    </div>
+    <div class="footer-copyright text-white text-center">
+      <span>@Copyright - 2022, Tim 9</span>
     </div>
 
-
-  
-    
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
   </body>

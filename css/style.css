@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+nav{
+    border-bottom: 4px solid #ff8009;
+}
+
+.bg-nav{
+    background-color: #011342;
+    /* background-color: #040F2C; */
+}
+.text-hotel{
+    color: #f37702;
+}
+
+.room{
+    margin-top: 8%;
+}
+
+.bg-btn{
+    background-color: #f37702;
+}
+.bg-btn:hover{
+    background-color: #c55f00;
+}
+
+.footer{
+    background-color: #011342;
+}
+
+.footer-booking{
+    color: white;
+}
+.footer-contact{
+    color:#f37702 !important;
+}
+.footer-company a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer-company a:hover{
+    text-decoration: none;
+    color: #f37702;
+  }
+
+.footer-copyright{
+    background-color: #000D2C; 
+    padding: 10px;
+}
